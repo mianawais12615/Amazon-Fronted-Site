@@ -1,6 +1,6 @@
 // API Configuration
 // Backend deployed on Railway
-const API_BASE_URL = "https://amazonserver.up.railway.app"; // Production (Railway)
+const API_BASE_URL = "https://amazon-backend-server.up.railway.app"; // Production (Railway)
 // const API_BASE_URL = "http://localhost:8000"; // Local development (uncomment for local testing)
 
 const API_ENDPOINTS = {
