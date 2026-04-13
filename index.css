@@ -1,0 +1,160 @@
+/* Custom CSS for Amazon Clone */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Custom utility classes */
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.transition-all {
+  transition: all 0.2s ease-in-out;
+}
+
+.transition-shadow {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Custom hover effects */
+.hover\:border-white:hover {
+  border-color: white !important;
+}
+
+.hover\:shadow-lg:hover {
+  box-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
+}
+
+/* Navbar custom styles */
+.nav-logo,
+.nav-address,
+.nav-signin,
+.nav-return,
+.nav-cart {
+  border: 1px solid transparent !important;
+  border-radius: 2px;
+  transition: border-color 0.2s ease;
+}
+
+.nav-logo:hover,
+.nav-address:hover,
+.nav-signin:hover,
+.nav-return:hover,
+.nav-cart:hover {
+  border-color: white !important;
+}
+
+/* Search bar focus effect */
+.input-group:focus-within {
+  outline: 3px solid #ff9900;
+  outline-offset: 2px;
+}
+
+/* Card hover effects */
+.card {
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav-logo svg {
+    width: 80px;
+    height: 30px;
+  }
+
+  .hero-section {
+    height: 250px !important;
+  }
+}
+
+/* Custom background colors for Tailwind */
+.bg-\[\#0f1111\] {
+  background-color: #0f1111;
+}
+
+.bg-\[\#232f3e\] {
+  background-color: #232f3e;
+}
+
+.bg-\[\#37475a\] {
+  background-color: #37475a;
+}
+
+.text-gray-300 {
+  color: #d1d5db;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Product card styles */
+.card {
+  border: 1px solid #e0e0e0;
+}
+
+.card:hover {
+  border-color: #ff9900;
+}
+
+/* Cart badge */
+#cart-count {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  margin-left: -10px;
+  margin-top: -5px;
+}
+
+/* Cart item styles */
+.cart-item {
+  transition: background-color 0.2s ease;
+}
+
+.cart-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Button hover effects */
+.btn-warning:hover {
+  background-color: #f0b000;
+  border-color: #f0b000;
+}
+
+/* Toast notifications */
+.toast {
+  min-width: 250px;
+}
+
+/* Quantity select */
+.form-select-sm {
+  font-size: 0.875rem;
+}
+
+/* Star rating colors */
+.text-warning i {
+  color: #ffa41c;
+}
